@@ -5,7 +5,7 @@ verhoeff
 [![hex.pm version](https://img.shields.io/hexpm/v/verhoeff.svg)](https://hex.pm/packages/verhoeff)
 
 An Erlang implementaion of the Verhoeff algorithm created by Jacobus Verhoeff.  
-The Verhoeff algoritm is a check digit algorithm which can detects all single-digit errors and all adjacent transposition errors.  
+The Verhoeff algoritm is a check digit algorithm which can detect all single-digit errors and all adjacent transposition errors.  
 More details: [Verhoeff algorithm - Wikipedia](https://en.wikipedia.org/wiki/Verhoeff_algorithm)
 
 

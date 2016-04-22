@@ -1,5 +1,5 @@
 {application, verhoeff,
- [{description, "An OTP library"},
+ [{description, "The Verhoeff algorithm implementation"},
   {vsn, "0.1.1"},
   {registered, []},
   {applications,

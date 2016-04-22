@@ -1,6 +1,6 @@
 {application, verhoeff,
  [{description, "The Verhoeff algorithm implementation"},
-  {vsn, "0.1.1"},
+  {vsn, "0.1.2"},
   {registered, []},
   {applications,
    [kernel,

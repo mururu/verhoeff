@@ -41,7 +41,7 @@ checksum_list(S, Offset) ->
     lookup_inv(checksum_list(lists:reverse(S), Offset, 0)).
 
 checksum_list([C|Rest], I, Acc) ->
-    checksum_list(Rest, I + 1, ?LOOKUP(Acc, C - 48, I));
+    checksum_list(Rest, I + 1, lookup(Acc, C - 48, I));
 checksum_list([], _, Acc) ->
     Acc.
 
